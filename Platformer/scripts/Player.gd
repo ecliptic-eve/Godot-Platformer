@@ -4,8 +4,8 @@ var motion = Vector2()
 const UP = Vector2(0,-1)
 const MAX_SPEED = 400
 const ACC = 50
-const JUMP_FORCE = -800
-const GRAVITY = 40
+const JUMP_FORCE = -1000
+const GRAVITY = 20
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
